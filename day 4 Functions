@@ -1,0 +1,42 @@
+a=1515
+b=6
+def add():
+ c=a+b
+ print(c)
+
+add()
+
+
+
+num1=10
+num2=200
+
+addition=num1+num2
+print("value of addition:" + str (addition))
+
+sub = num1-num2
+print(sub)
+
+mul=num1*num2
+print(mul)
+
+div=num1/num2
+print(div)
+
+
+num3=10
+num4=5
+
+def addition():
+ addition = num3 + num4
+ print(addition)
+
+ def sub():
+   sub = num3 - num4
+   print(sub)
+
+ def mul():
+  mul = num3 * num4
+  print(mul)  
+  
+ addition()

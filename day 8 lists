@@ -1,0 +1,19 @@
+s3_bucket_list1=["jadav,srikar,omkar,usa,dallas,uppal,gandhari"]
+s3_bucket_list1.append("Ramesh pati")
+print(s3_bucket_list1)
+
+#tuples6
+s3_bucket_list2=("usa","dallas","uppal","gandhari")
+print(s3_bucket_list2)
+
+
+s3_bucket_list3 = ["jadav","srikar","omkar","usa","dallas","uppal","gandhari"]
+s3_bucket_list3.append("ASUS TUF GAMING")
+
+
+
+print(len(s3_bucket_list3))
+print(s3_bucket_list3)
+
+new_list=[13,53,6,1,3]
+print(new_list.sort)

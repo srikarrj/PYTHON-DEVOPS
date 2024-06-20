@@ -1,0 +1,13 @@
+
+
+
+
+a="srikar"
+b=67
+print(type(b ))
+
+
+a="srikar jadhav"
+b= "amit jadhav"
+c="omkar jadhav"
+print(a.split("a"))

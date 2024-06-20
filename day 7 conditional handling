@@ -1,0 +1,10 @@
+import sys
+type = sys.args[1]
+if type== "t2.micro":
+  print("ok we willcreate the instance for you")
+elif type == "t2.micro":
+  print("your input is not t2.micro,so we cannot create")
+elif type == "t2.x large":
+  print("your input is not 4 dollars,so we cannot create")
+else:
+  print("your input is not 8  dollars,so we cannot create") 

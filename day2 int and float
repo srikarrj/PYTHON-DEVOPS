@@ -1,0 +1,51 @@
+#printing integers and float values
+num1 = 103
+num2 = 14
+result1 = num1 + num2
+print("Addition:",result1)
+
+result2 = num1 - num2
+print("Substraction:",result2)
+
+result3 = num1 * num2
+print("Multiplication:",result3)
+
+result4 = num1/num2
+print("Division:", result4)
+
+num3=95.32
+num4=65.12
+
+result5 = num3 + num4
+print("Addition:",result5)
+
+result6= num3-num4
+print("substraction:",result6)
+
+result7 = num3*num4
+print("Multiplication:",result7)
+
+result8 = num3//num4
+print("Division:",result8)
+
+result9 = round(3.135423634635,2)
+print("Rounded:",result9)
+
+result10 = abs(-5)
+print("Absolute value:",result10)
+
+
+
+#regular expression
+
+import re
+
+text=" THE QUIsCK BROWN FOX"
+pattern = r"QUICK"
+
+match = re.match(pattern, text)
+if match:
+ print("Match found:".match.group)
+else:
+ print("not found:")
+

@@ -1,0 +1,26 @@
+name= "srikar srikar"
+print(name*2)
+
+ec2_instance_name="jadav"
+print(ec2_instance_name)
+
+ec2_instance_name="print-abc-project"
+print(ec2_instance_name*14)
+
+
+#variables are of two types one is Local variable another one is global variable
+#local variable= local variables are defined inside a function or block..................glocal is defined as a outside of all functions or blocks
+
+a= 101  #local scope variables
+b= 5
+
+def addition():
+    c=13
+    print(a+b+c)
+
+def sub():
+    print(a-b)
+
+addition()
+sub()       
+

@@ -1,0 +1,12 @@
+number = input("please provide a number")
+print(number)
+
+
+folders = input("please provide a list of numbers").split()
+print(folders)
+
+folders = input("please provide a tuple of numbers").split()
+print(folders)
+
+folders = input("please add two numbers in a list").split()
+print(folders)

@@ -1,0 +1,21 @@
+'''
+for i in range (100):
+ print("srikar") 
+ print("jadav")
+ print(i)
+colors  =("yellow","blue","green")
+for x in colors:
+ print(x)
+'''
+
+numbers = [1,2,3,4,5]
+for number in numbers:  
+      if number == 3:
+         break
+print(number) 
+
+numbers = [1,2,3,4,5]
+for number in numbers:  
+      if number == 3:
+         continue
+print(numbers) 

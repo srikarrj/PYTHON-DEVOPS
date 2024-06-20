@@ -1,0 +1,21 @@
+srikar = 132
+omkar =342
+print(srikar+omkar)
+x = 115
+y = 114
+a = 113
+z = 116
+print(x+y)
+print(x-a)
+print(x*z)
+print(y/a)
+print(x//a)
+print(x==y)
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
+print(x!=a)
+print(x is y)
+print(y is x)
+print(a == z)

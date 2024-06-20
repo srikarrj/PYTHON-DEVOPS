@@ -1,0 +1,29 @@
+#string splitting
+arn = "arn:aws:iam::12345678932:user//srikar"
+print(arn.split("/"))
+print(arn.split("srikar"))
+  
+#printing upper and lower case letters
+name="srikar"
+print(name.upper())
+print(name.lower())
+    
+#concatenation adding two strings
+str1="srikar"
+str2="jadhav"
+result = str1 + str2
+print(result) 
+
+#printing length of a string
+text1= "python is awesome and python is written by wan rusum"
+text2= "sj"
+length1 = len(text2)
+length2 = len(text1)
+
+print(length1)
+print(length2)
+
+#replacing a string
+text = "jadhav srikar"
+new_text = text.replace("jadhav","Ridhya")
+print("modified text:", new_text)
